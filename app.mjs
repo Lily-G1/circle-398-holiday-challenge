@@ -8,7 +8,9 @@ function startApp() {
 
   phoneNumber.addEventListener('input', function() {
 
-    if (phoneNumber.value.startsWith('0803') || phoneNumber.value.startsWith('0806') || phoneNumber.value.startsWith('0703') || phoneNumber.value.startsWith('0706') || phoneNumber.value.startsWith('0813') || phoneNumber.value.startsWith('0816') || phoneNumber.value.startsWith('0810') || phoneNumber.value.startsWith('0814') || phoneNumber.value.startsWith('0903')) {
+    if (phoneNumber.value.startsWith('0803') || phoneNumber.value.startsWith('0806') || phoneNumber.value.startsWith('0703') ||
+phoneNumber.value.startsWith('0704') ||
+phoneNumber.value.startsWith('0706') || phoneNumber.value.startsWith('0813') || phoneNumber.value.startsWith('0816') || phoneNumber.value.startsWith('0810') || phoneNumber.value.startsWith('0814') || phoneNumber.value.startsWith('0903')) {
       phoneNumber.style.background = 'url("mtn11.jpg") right no-repeat';
     }
 
